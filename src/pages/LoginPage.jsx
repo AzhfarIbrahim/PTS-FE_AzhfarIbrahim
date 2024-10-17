@@ -7,7 +7,7 @@ const LoginPage = () => {
   const [password, setPassword] = useState("");
 
   function handleLogin() {
-    password === admin ? navigate("/booking") : alert("Password salah");
+    password === admin ? navigate("/PTS-FE_AzhfarIbrahim/booking") : alert("Password salah");
   }
   return (
     <div className="w-full h-screen flex justify-center items-center bg-cover bg-center bg-[url('/assets/pantai.jpg')]">
